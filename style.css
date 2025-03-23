@@ -109,12 +109,8 @@ animation: blink 3s infinite;}
 
 @media(max-width:325px) {
     .container{display: block;
-        justify-content: center;
+        justify-content: center;}
     
-    }
-
-
-
     .videop{margin-left: 60px;
         justify-content: center;
         width: 200px;
