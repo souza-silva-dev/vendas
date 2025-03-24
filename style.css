@@ -1,12 +1,20 @@
-html{background-color:rgb(117, 99, 99);}
 
 
+html{background-color: black;}
+
+.cabecalho{display: block;
+justify-content: center;
+text-align: center;
+
+}
 
 .titulo{color: red;
 text-align: center;
 color:red;
 padding: 40px;
+
     animation: piscaPisca 2s infinite;
+    
 }
 @keyframes piscaPisca{
     0% {color: red; }
@@ -25,8 +33,9 @@ padding: 40px;
     font-size: 30px;
     color: #25d366;
     
-  
+
 }
+
 
 
 
