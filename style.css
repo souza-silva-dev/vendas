@@ -1,10 +1,11 @@
-html{background-color: black;}
+html{background-color:rgb(117, 99, 99);}
 
 
 
 .titulo{color: red;
 text-align: center;
 color:red;
+padding: 40px;
     animation: piscaPisca 2s infinite;
 }
 @keyframes piscaPisca{
@@ -16,6 +17,19 @@ color:red;
 
 }
 
+.zap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #25d366;
+    
+  
+}
+
+
+
 .subtitulo{color: aqua;
 text-align: center;}
 
@@ -23,17 +37,20 @@ text-align: center;}
 text-align: center;
 font-size: 36px;}
 
-.texto2{color: red;
-font-size: 28px;
+.texto2{color: aquamarine;
+font-size: 32px;
 margin: 20px;
 text-align: center;}
 
 .resposta{color: thistle;
 font-size: 26px;
-margin: 20px;}
+margin: 20px;
+margin-bottom: 50px;}
 
-.container{display: flex;
-justify-content: center;}
+.container{display: grid;
+  justify-content: center;
+    grid-template-columns: repeat(2,auto);
+}
    
 
 
@@ -108,7 +125,7 @@ animation: blink 3s infinite;}
 @media(max-width: 425px) 
 {
 
-    .html{background-color: dimgrey;}
+    html{background-color: dimgrey;}
 
    .titulo{margin-top: 50px;}
    
@@ -143,4 +160,7 @@ animation: blink 3s infinite;}
     .queimaestoque{
         font-size: 20px;
     }
+
+    .zap{font-size: 20px;
+         margin-left: -22px;}
 }
