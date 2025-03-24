@@ -1,6 +1,6 @@
 html{background-color: black;}
 
-.info{} 
+
 
 .titulo{color: red;
 text-align: center;
@@ -89,12 +89,14 @@ font-size: 24px;}
     animation: piscaPisca 2s infinite;
 }
 @keyframes piscaPisca{
-    0% {color: red; }
-    10% {color: rgb(245, 4, 4);}
+    10% {color: white;}
+    10% {color:white;}
     15% {color: black;}
-    30% {color: green;}
+    30% {color:white;}
 
 }
+
+
 
 .maisinfo{color: #40c351;}
 
@@ -105,9 +107,12 @@ animation: blink 3s infinite;}
 
 @media(max-width: 425px) 
 {
+
+    .html{background-color: dimgrey;}
+
    .titulo{margin-top: 50px;}
    
-    .texto{font-size: 14px;
+    .texto{font-size: 18px;
     justify-content: center;}  
 
     .container{display: block;
@@ -127,9 +132,15 @@ animation: blink 3s infinite;}
     .descricao{
         font-size: 16px;
         width: 250px;
+       
+        margin-left: 40px;
     }
 
     .valorantigo{
         text-align: center;
+    }
+
+    .queimaestoque{
+        font-size: 20px;
     }
 }
