@@ -1,17 +1,30 @@
 
 
-html{background-color: black;}
+html{background-color: white;}
 
-.cabecalho{display: block;
-justify-content: center;
-text-align: center;
+.cabecalho{display: flex;
+padding: 40px;
+justify-content: space-between;
 
 }
 
+.cabecalhozap{
+
+    font-size: 60px;
+    color: #25d366;
+}
+
+.img{
+    border-radius: 50px;
+    margin-top: -20px;
+  
+    }
+
 .titulo{color: red;
-text-align: center;
+font-weight: 700;
 color:red;
-padding: 40px;
+
+font-size: 36px;
 
     animation: piscaPisca 2s infinite;
     
@@ -39,19 +52,20 @@ padding: 40px;
 
 
 
-.subtitulo{color: aqua;
-text-align: center;}
-
-.texto{color: aliceblue;
+.subtitulo{color:black;
 text-align: center;
 font-size: 36px;}
 
-.texto2{color: aquamarine;
+.texto{color: black;
+text-align: center;
+font-size: 36px;}
+
+.texto2{color: blue;
 font-size: 32px;
 margin: 20px;
 text-align: center;}
 
-.resposta{color: thistle;
+.resposta{color: black;
 font-size: 26px;
 margin: 20px;
 margin-bottom: 50px;}
@@ -72,12 +86,14 @@ margin-bottom: 50px;}
 
 .descricao{
     text-align: center;
-    color: aliceblue;
+    color: black;
 margin: 60px;
 margin-top: -15PX;
 font-size: 22px;
 line-height: 30px;
 width: 500px;}
+
+
 
 
 
@@ -106,7 +122,7 @@ color: aliceblue;
 }
 
 
-.valorantigo{color: aquamarine;
+.valorantigo{color: #25d366;
 text-align: center;
 text-decoration: line-through;
 font-size: 24px;}
@@ -126,7 +142,8 @@ font-size: 24px;}
 
 .maisinfo{color: #40c351;}
 
-.destaque{color: red;}
+.destaque{color: red;
+font-weight: 700;}
 
 .span{color:red;
 animation: blink 3s infinite;}
@@ -134,9 +151,23 @@ animation: blink 3s infinite;}
 @media(max-width: 425px) 
 {
 
-    html{background-color: dimgrey;}
+    .cabecalhozap{
 
-   .titulo{margin-top: 50px;}
+        font-size: 30px;
+        color: #25d366;
+    
+    }
+
+.cabecalho{
+    display: block;
+text-align: center;
+padding: 50px;
+}
+
+    html{background-color: white;}
+
+   .titulo{margin-top: 50px;
+margin-bottom: 30px;}
    
     .texto{font-size: 18px;
     justify-content: center;}  
